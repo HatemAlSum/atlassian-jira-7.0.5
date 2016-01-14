@@ -1,0 +1,3 @@
+#Map your backed up jira_home directory to Docker volume jira_home
+#Docker run -d -p 8080:8080 -v Host_Volume:/home/jira/jira_home -t ubuntu:jira
+#from browser localhost:8080/jira
